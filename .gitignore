@@ -5,3 +5,17 @@ target/
 .mvn/wrapper/maven-wrapper.properties
 !/.mvn/wrapper/maven-wrapper.jar
 !/.mvn/wrapper/maven-wrapper.properties
+
+# Logs
+*.log
+
+# Runtime / temp files
+*.out
+*.err
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
