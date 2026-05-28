@@ -1,0 +1,127 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.sqa:music-online-backend >--------------------
+[INFO] Building music-online-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.5.7:run (default-cli) > test-compile @ music-online-backend >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ music-online-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ music-online-backend ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ music-online-backend ---
+[INFO] skip non existing resourceDirectory C:\Users\rog\IdeaProjects\music-online-backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ music-online-backend ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.5.7:run (default-cli) < test-compile @ music-online-backend <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.5.7:run (default-cli) @ music-online-backend ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.7)
+
+2026-04-25T13:35:37.843+08:00  INFO 34708 --- [music-online-backend] [           main] c.s.musiconline.MusicOnlineApplication   : Starting MusicOnlineApplication using Java 22.0.2 with PID 34708 (C:\Users\rog\IdeaProjects\music-online-backend\target\classes started by rog in C:\Users\rog\IdeaProjects\music-online-backend)
+2026-04-25T13:35:37.845+08:00  INFO 34708 --- [music-online-backend] [           main] c.s.musiconline.MusicOnlineApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-04-25T13:35:38.447+08:00  INFO 34708 --- [music-online-backend] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18082 (http)
+2026-04-25T13:35:38.457+08:00  INFO 34708 --- [music-online-backend] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-25T13:35:38.458+08:00  INFO 34708 --- [music-online-backend] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-04-25T13:35:38.490+08:00  INFO 34708 --- [music-online-backend] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-25T13:35:38.490+08:00  INFO 34708 --- [music-online-backend] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 622 ms
+Logging initialized using 'class org.apache.ibatis.logging.stdout.StdOutImpl' adapter.
+Get /192.168.1.79 network interface 
+Get network interface info: name:wireless_32768 (MediaTek Wi-Fi 6E MT7922 (RZ616) 160MHz Wireless LAN Card)
+Initialization Sequence datacenterId:6 workerId:8
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.14 
+2026-04-25T13:35:38.848+08:00  INFO 34708 --- [music-online-backend] [           main] m.e.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34c01041
+2026-04-25T13:35:38.939+08:00  INFO 34708 --- [music-online-backend] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18082 (http) with context path '/'
+2026-04-25T13:35:38.943+08:00  INFO 34708 --- [music-online-backend] [           main] c.s.musiconline.MusicOnlineApplication   : Started MusicOnlineApplication in 1.63 seconds (process running for 1.819)
+2026-04-25T13:35:48.888+08:00  INFO 34708 --- [music-online-backend] [io-18082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-25T13:35:48.888+08:00  INFO 34708 --- [music-online-backend] [io-18082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-25T13:35:48.890+08:00  INFO 34708 --- [music-online-backend] [io-18082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-04-25T13:35:49.038+08:00  INFO 34708 --- [music-online-backend] [io-18082-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-25T13:35:49.128+08:00  INFO 34708 --- [music-online-backend] [io-18082-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79c78a3d
+2026-04-25T13:35:49.129+08:00  INFO 34708 --- [music-online-backend] [io-18082-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+Creating a new SqlSession
+Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e38cc2e]
+JDBC Connection [HikariProxyConnection@1083437565 wrapping com.mysql.cj.jdbc.ConnectionImpl@79c78a3d] will be managed by Spring
+==>  Preparing: SELECT id,username,email,password_hash,display_name,phone,country,city,address_line1,address_line2,postcode,account_status,created_at,updated_at FROM users WHERE (username = ?) LIMIT 1
+==> Parameters: demo_user_20260425133534(String)
+<==      Total: 0
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e38cc2e]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e38cc2e] from current transaction
+==>  Preparing: SELECT id,username,email,password_hash,display_name,phone,country,city,address_line1,address_line2,postcode,account_status,created_at,updated_at FROM users WHERE (email = ?) LIMIT 1
+==> Parameters: demo_20260425133534@example.com(String)
+<==      Total: 0
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e38cc2e]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e38cc2e] from current transaction
+==>  Preparing: INSERT INTO users ( username, email, password_hash, display_name, phone, account_status ) VALUES ( ?, ?, ?, ?, ?, ? )
+==> Parameters: demo_user_20260425133534(String), demo_20260425133534@example.com(String), fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4(String), Demo User(String), 1234567890(String), ACTIVE(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e38cc2e]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e38cc2e] from current transaction
+==>  Preparing: SELECT id,role_key,role_name,description,created_at,updated_at FROM roles WHERE (role_key = ?) LIMIT 1
+==> Parameters: ROLE_USER(String)
+<==    Columns: id, role_key, role_name, description, created_at, updated_at
+<==        Row: 1, ROLE_USER, User, Default registered customer role, 2026-04-25 12:44:16, 2026-04-25 12:44:16
+<==      Total: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e38cc2e]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e38cc2e] from current transaction
+==>  Preparing: INSERT INTO users_roles ( user_id, role_id ) VALUES ( ?, ? )
+==> Parameters: 4(Long), 1(Long)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e38cc2e]
+Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e38cc2e]
+Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e38cc2e]
+Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e38cc2e]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6e83d203] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@729895351 wrapping com.mysql.cj.jdbc.ConnectionImpl@79c78a3d] will not be managed by Spring
+==>  Preparing: SELECT id,username,email,password_hash,display_name,phone,country,city,address_line1,address_line2,postcode,account_status,created_at,updated_at FROM users WHERE (username = ?) LIMIT 1
+==> Parameters: demo_user_20260425133534(String)
+<==    Columns: id, username, email, password_hash, display_name, phone, country, city, address_line1, address_line2, postcode, account_status, created_at, updated_at
+<==        Row: 4, demo_user_20260425133534, demo_20260425133534@example.com, fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4, Demo User, 1234567890, null, null, null, null, null, ACTIVE, 2026-04-25 13:35:49, 2026-04-25 13:35:49
+<==      Total: 1
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6e83d203]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7187b851] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1034900887 wrapping com.mysql.cj.jdbc.ConnectionImpl@79c78a3d] will not be managed by Spring
+==>  Preparing: SELECT id,user_id,role_id,assigned_at,assigned_by_admin_id FROM users_roles WHERE (user_id = ?) ORDER BY id ASC LIMIT 1
+==> Parameters: 4(Long)
+<==    Columns: id, user_id, role_id, assigned_at, assigned_by_admin_id
+<==        Row: 4, 4, 1, 2026-04-25 13:35:49, null
+<==      Total: 1
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7187b851]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e06ff39] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@850819058 wrapping com.mysql.cj.jdbc.ConnectionImpl@79c78a3d] will not be managed by Spring
+==>  Preparing: SELECT id,role_key,role_name,description,created_at,updated_at FROM roles WHERE id=?
+==> Parameters: 1(Long)
+<==    Columns: id, role_key, role_name, description, created_at, updated_at
+<==        Row: 1, ROLE_USER, User, Default registered customer role, 2026-04-25 12:44:16, 2026-04-25 12:44:16
+<==      Total: 1
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e06ff39]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c8c3576] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1418083205 wrapping com.mysql.cj.jdbc.ConnectionImpl@79c78a3d] will not be managed by Spring
+==>  Preparing: SELECT id,seller_user_id,artist_name,title,format_type,genre_name,condition_grade,release_date,price,stock_quantity,description,cover_image_url,listing_status,created_at,updated_at FROM vinyls WHERE (listing_status = ? AND stock_quantity > ?) ORDER BY id DESC
+==> Parameters: ACTIVE(String), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c8c3576]
